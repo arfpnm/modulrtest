@@ -41,7 +41,10 @@ AtmServiceImpl has calculates the denominations and the note counts based on the
 3) AtmUtils
 Util class implements the utility methods to support service classes.
 
-
 Test coverage is done on all the above classes.
 
 Log4J is used for logging.
+
+Validation:
+1) Withdrawal amount cannot be less than 20 and more than 250.
+2) Withdrawal amount should be in multiples of 5

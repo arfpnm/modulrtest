@@ -8,9 +8,9 @@ Since the DB layer is hard coded in this task, the check balance will not dislay
 The DB access layer populates the domain Account and based on the account number, the data will be retrieved.
 checkBalance() method accepts account number and the toString method displays in the format as follows:
 
-AccountNumber=01001
+"AccountNumber=01001
 Balance=2,738.59
-ResponseStatus=Success
+ResponseStatus=Success"
 
 AccountService has one more method withdrawAmount(). This method accepts Account domain object which has folowing attributes:
   private String accountNumber;
@@ -22,7 +22,7 @@ AccountService has one more method withdrawAmount(). This method accepts Account
   Attributes String accountNumber, BigDecimal balance and Integer withdrawalAmount should be populated for the ATM withdrawal.
   withdrawAmount() response will be in the following format: 
   
-  AccountNumber=01001
+  "AccountNumber=01001
   Balance=2503.59
   WithdrawalAmount=235
   ATM Transactions=
@@ -30,7 +30,7 @@ AccountService has one more method withdrawAmount(). This method accepts Account
     (denomination: 20 count: 1)
     (denomination: 10 count: 1)
     (denomination: 5 count: 1)
- ResponseStatus=Success
+ ResponseStatus=Success"
 
 The balance displayed will be based on the amount withdrawn.
 

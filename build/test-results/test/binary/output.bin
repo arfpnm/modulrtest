@@ -1,0 +1,4 @@
+\ERROR [Test worker] (AtmUtils.java:48) - Withdrawal amount should be between £20 and £250
+\ERROR [Test worker] (AtmUtils.java:48) - Withdrawal amount should be between £20 and £250
+]ERROR [Test worker] (AtmUtils.java:45) - Invalid amount entered, please enter multiples of 5
+	]ERROR [Test worker] (AtmUtils.java:45) - Invalid amount entered, please enter multiples of 5

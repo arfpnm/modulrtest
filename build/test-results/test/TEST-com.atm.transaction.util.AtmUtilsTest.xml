@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.atm.transaction.util.AtmUtilsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-09-05T14:54:44" hostname="ARIFs-MBP" time="0.037">
+  <properties/>
+  <testcase name="validateTransactionForSucessfullLowestAmountTest" classname="com.atm.transaction.util.AtmUtilsTest" time="0.031"/>
+  <testcase name="validateTransactionForWithdrawalsLessThan20" classname="com.atm.transaction.util.AtmUtilsTest" time="0.002"/>
+  <testcase name="calculateDenomWithCountforAmount5" classname="com.atm.transaction.util.AtmUtilsTest" time="0.0"/>
+  <testcase name="calculateDenomWithCountforAmount100" classname="com.atm.transaction.util.AtmUtilsTest" time="0.0"/>
+  <testcase name="validateTransactionForExceedingAmountforWithdrawal" classname="com.atm.transaction.util.AtmUtilsTest" time="0.0"/>
+  <testcase name="validateTransactionTest" classname="com.atm.transaction.util.AtmUtilsTest" time="0.001"/>
+  <testcase name="validateTransactionForSucessfullHighestAmountTest" classname="com.atm.transaction.util.AtmUtilsTest" time="0.0"/>
+  <testcase name="validateTransactionForNonMultipleAmountOf5Test" classname="com.atm.transaction.util.AtmUtilsTest" time="0.001"/>
+  <system-out><![CDATA[ERROR [Test worker] (AtmUtils.java:48) - Withdrawal amount should be between £20 and £250
+ERROR [Test worker] (AtmUtils.java:48) - Withdrawal amount should be between £20 and £250
+ERROR [Test worker] (AtmUtils.java:45) - Invalid amount entered, please enter multiples of 5
+ERROR [Test worker] (AtmUtils.java:45) - Invalid amount entered, please enter multiples of 5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

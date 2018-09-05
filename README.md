@@ -21,18 +21,16 @@ AccountService has one more method withdrawAmount(). This method accepts Account
   
   Attributes String accountNumber, BigDecimal balance and Integer withdrawalAmount should be populated for the ATM withdrawal.
   withdrawAmount() response will be in the following format: 
-
-----------------------------------------
-AccountNumber=01001
-Balance=2,503.59
-WithdrawalAmount=235
-ATM Transactions= 
- (denomination: 50 count: 4 )
- (denomination: 20 count: 1 )
- (denomination: 10 count: 1 )
- (denomination: 5 count: 1 )
-ResponseStatus=Success
-----------------------------------------
+  
+  AccountNumber=01001
+  Balance=2503.59
+  WithdrawalAmount=235
+  ATM Transactions=
+    (denomination: 50 count: 4)
+    (denomination: 20 count: 1)
+    (denomination: 10 count: 1)
+    (denomination: 5 count: 1)
+ ResponseStatus=Success
 
 The balance displayed will be based on the amount withdrawn.
 

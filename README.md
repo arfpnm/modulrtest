@@ -6,13 +6,11 @@ Modulr project is a gradle project which has some of the classes and thier behav
 AccountService has two methods checkBalance and withDrawAmount.
 Since the DB layer is hard coded in this task, the check balance will not dislay the latest transaction made.
 The DB access layer populates the domain Account and based on the account number, the data will be retrieved.
+checkBalance() method accepts account number and the toString method displays in the format as follows:
 
-checkBalance method accepts account number and the toString method displays in the format as follows:
---------------------------------------
 AccountNumber=01001
 Balance=2,738.59
 ResponseStatus=Success
----------------------------------------
 
 AccountService has one more method withdrawAmount(). This method accepts Account domain object which has folowing attributes:
   private String accountNumber;
@@ -22,7 +20,8 @@ AccountService has one more method withdrawAmount(). This method accepts Account
   private String responseStatus;
   
   Attributes String accountNumber, BigDecimal balance and Integer withdrawalAmount should be populated for the ATM withdrawal.
-  withdrawAmount() will response will be in the example format defined below:
+  withdrawAmount() response will be in the following format: 
+
 ----------------------------------------
 AccountNumber=01001
 Balance=2,503.59
